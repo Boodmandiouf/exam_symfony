@@ -1,0 +1,7 @@
+exam_exam:
+    resource: "@examBundle/Resources/config/routing/exam.yml"
+    prefix:   /
+
+exam_homepage:
+    path:     /
+    defaults: { _controller: examBundle:Default:index }

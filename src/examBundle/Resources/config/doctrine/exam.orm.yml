@@ -1,0 +1,28 @@
+examBundle\Entity\exam:
+    type: entity
+    table: null
+    repositoryClass: examBundle\Repository\examRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        album:
+            type: string
+            length: 255
+        titreAlbum:
+            type: string
+            length: 255
+            column: titre_album
+        artiste:
+            type: string
+            length: 255
+        genre:
+            type: string
+            length: 255
+        support:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
